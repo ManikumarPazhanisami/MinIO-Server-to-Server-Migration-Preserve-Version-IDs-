@@ -35,6 +35,10 @@ We bypass MinIO API-level transfer and directly copy underlying storage using:
 
 ---
 
+![Source Version IDs](Screenshots/version-check-source.png)
+
+![Destination Version IDs](Screenshots/version-check-destination.png)
+
 ## 🏗️ Architecture
 
 ```mermaid
@@ -48,3 +52,4 @@ flowchart LR
 
     B -->|Restart Service| C[MinIO Running]
     C -->|Verify| D[Version IDs Match ✅]
+
