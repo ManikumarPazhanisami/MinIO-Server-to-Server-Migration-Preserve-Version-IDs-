@@ -22,3 +22,11 @@
 
 ```bash
 sudo systemctl stop minio
+
+### 2️⃣ Run rsync (Core Step)
+
+```bash
+sudo rsync -avz --progress \
+  --rsync-path='sudo rsync' \
+  <SOURCE_USER>@<SOURCE_HOST>:<SOURCE_DATA_PATH>/ \
+  <DEST_DATA_PATH>/
