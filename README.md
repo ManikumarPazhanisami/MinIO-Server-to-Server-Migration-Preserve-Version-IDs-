@@ -48,5 +48,3 @@ flowchart LR
 
     B -->|Restart Service| C[MinIO Running]
     C -->|Verify| D[Version IDs Match ✅]
-
----
