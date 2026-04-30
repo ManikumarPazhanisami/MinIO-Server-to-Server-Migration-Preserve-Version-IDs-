@@ -1,0 +1,2 @@
+1. Stop destination MinIO
+sudo systemctl stop minio
