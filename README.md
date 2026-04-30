@@ -233,4 +233,4 @@ If the migration fails or the destination is unhealthy after starting MinIO:
 
 ## 📜 License
 
-Manikumar
+MIT
