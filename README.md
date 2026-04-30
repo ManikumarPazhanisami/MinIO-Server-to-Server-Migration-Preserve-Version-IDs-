@@ -48,3 +48,11 @@ flowchart LR
 
     B -->|Restart Service| C[MinIO Running]
     C -->|Verify| D[Version IDs Match ✅]
+
+##⚙️ Tech Stack
+Linux (Ubuntu / RHEL)
+MinIO (any deployment type)
+rsync
+SSH
+systemd
+Bash scripting
